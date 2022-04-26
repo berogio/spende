@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Merriweather bold;
+    src: url(assets/fonts/Merriweather/Merriweather-Bold.ttf);
+}
+
+@font-face {
+    font-family: proxima_nova_reg;
+    src: url(assets/fonts/proxima_nova_reg.ttf);
+}
+
+@font-face {
+    font-family: ProximaSoft-Bold;
+    src: url(assets/fonts/ProximaSoft-Bold.ttf);
+}

@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+.header {
+    width: 80%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    height: 100%;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid transparent;
+    margin: 0 10px;
+    padding: 15px;
+    font-family: proxima_nova_reg;
+}
+
+li:hover {
+    border-bottom: 2px solid #ee0512;
+}
+
+.change-language {
+    width: 35px;
+    height: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+    border-style: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.change-language:hover {
+    background-color: #00000032;
+    cursor: pointer;
+}
+
+.change-language:active {
+    transform: scale(0.98);
+}
+
+.registration {
+    border-radius: 20px;
+    width: 170px;
+    height: 38px;
+    margin-left: 10px;
+    padding-left: 15px;
+    background-color: #000000;
+    border-style: none;
+    color: white;
+    font-family: ProximaSoft-Bold;
+}
+
+.registration:hover {
+    background-color: rgba(0, 0, 0, 0.395);
+    cursor: pointer;
+}
+
+.registration:active {
+    transform: scale(0.98);
+}
+
+.cover-text {
+    font-size: 80px;
+    line-height: 90px;
+    width: 480px;
+    height: 280px;
+    color: #FFD264;
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    font-family: Merriweather bold;
+    line-height: 100px;
+}
+
+.cover {
+    width: 100%;
+}
+
+.conntent {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #F5F5F0;
+}
+
+.item-chance {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.item-chance h1 {
+    width: 50px;
+    font-size: 48px;
+    font-family: Merriweather bold;
+}
+
+.item-chance p {
+    width: 220px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.item-chancen-text {
+    width: 550px;
+    font-size: 32px;
+    margin-left: 20%;
+    font-family: proxima_nova_reg;
+}
+
+.button-more {
+    width: 200px;
+    height: 48px;
+    border: solid 1px;
+    background-color: #F5F5F0;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 24px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ProximaSoft-Bold;
+}
+
+.button-more:hover {
+    background-color: rgba(237, 228, 228, 0.676);
+    cursor: pointer;
+}
+
+.button-more:active {
+    transform: scale(0.98);
+}
